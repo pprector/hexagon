@@ -34,11 +34,6 @@
         </dependency>
         <dependency>
             <groupId>org.example</groupId>
-            <artifactId>hexagon-facade</artifactId>
-            <version>${revision}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.example</groupId>
             <artifactId>hexagon-adaptor-http</artifactId>
             <version>${revision}</version>
         </dependency>

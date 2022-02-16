@@ -16,19 +16,20 @@
             adaptor/hexagon-adaptor-rpc 
             adaptor/hexagon-adaptor-http 
             adaptor/hexagon-adaptor-consumer
-                 适配器层: 适配系统各种形式入口,可根据业务场景定制化
+                 **适配器层: 适配系统各种形式入口,可根据业务场景定制化**
                  
             infrastructure/hexagon-infrastructure-cache            缓存
             infrastructure/hexagon-infrastructure-producer         消息生产
             infrastructure/hexagon-infrastructure-repository       数据库
             infrastructure/hexagon-infrastructure-rpc              rpc
             infrastructure/hexagon-infrastructure-task             任务调度
-                 适配器层: 适配组件,可根据业务场景定制化
+                 **适配器层: 适配组件,可根据业务场景定制化**
 # 模块依赖关系
 *1. domain层与facade层不依赖其他层. (common除外)
 *2. application层 依赖 domain,facade. 校验并判断,承上启下
 *3. adaptor层实现facade接口. 
 *4. infrastructure 依赖domain,application层 根据业务场景. 定制接口
 *5. bootstrap 依赖所有模块提供启动能力     
-# 延伸阅读
+# 数据类型分析
+    
 
