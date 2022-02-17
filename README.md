@@ -24,6 +24,7 @@
             infrastructure/hexagon-infrastructure-rpc              rpc
             infrastructure/hexagon-infrastructure-task             任务调度
                  **适配器层: 适配组件,可根据业务场景定制化**
+                 
 # 模块依赖关系
 *1. domain层与facade层不依赖其他层. (common除外)
 *2. application层 依赖 domain,facade. 校验并判断,承上启下
